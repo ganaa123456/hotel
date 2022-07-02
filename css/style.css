@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: #333;
+    justify-content: space-between;
+    padding: 1rem;
+    z-index: 1;
+    
+    
+}
+#navbar h1 {
+    color: #fff;
+}
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul a {
+    text-decoration: none;
+    list-style: none;
+    padding: 0 0.75rem;
+    color: #fff;
+    
+    
+}
+.green-color {
+    color: #74b82e;
+}
+#navbar ul a:hover {
+    background: #74b82e;
+    border-radius: 5px;
+}
+
+/* showcase */
+
+#showcase {
+    background: #333 url('/img/showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    
+}
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+#showcase .showcase-content .btn {
+    text-decoration: none;
+    display: inline-block;
+    background: #74b82e;
+    border: none;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1.5rem;
+    transition: all 1s ease-out;
+    border-radius: 5px;
+
+}
+#showcase .showcase-content .btn:hover {
+    /* background: #234f1e; */
+    opacity: 0.5;
+}
+#showcase .showcase-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+}
+
+/* section */
+#section .container {
+    max-width: 1100px;
+    margin: auto;
+    
+}
+#section .container .what {
+    text-align: center;
+}
+#section .container .box-1-icon , .box-2-icon ,.box-3-icon {
+       background: #74b82e;
+       padding: 1rem;
+       border-radius: 50%;
+       
+       
+}
+#section .container .boxes {
+    display: flex;
+    padding: 2rem;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#section .container .boxes .box-1 , .box-2  ,.box-3{
+     text-align: center;
+     margin-right: 4rem;
+     
+     
+     
+}
+#section .container .boxes .box-1 h3 , .box-2 h3 , .box-3 h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+/* section : who */
+#who {
+    display: flex;
+}
+#who div {
+    flex: 1;
+}
+#who .img {
+    background: url('/img/people.jpg') no-repeat center center/cover;
+    
+   
+}
+#who .text {
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    color: #fff;
+    padding: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#who .text h1 {
+    margin-bottom: 0.5rem;
+}
+#who .text h3 {
+    margin: 0.5rem 0 ;
+}
+#who .text p {
+    padding-bottom: 0.5rem;
+}
+
+/* section: Манай түншүүд */
+#container h1 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+#container .items {
+    display: flex;
+    padding: 1rem;
+}
+#container .items img {
+    display: block;
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+}
+
+#contact {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background: #74b82e;
+    max-width: 40%;
+    color: #fff;
+}
+#contact input ,textarea {
+    display: flex;
+    margin-bottom: 0.5rem;
+    
+}
+#contact .contact-form {
+    margin: auto;
+}
+#contact input {
+    padding: 0.3rem 0 ;
+    width: 100%;
+}
+#contact textarea {
+    width: 100%;
+    padding: 0.5rem 0;
+}
+#contact .contact-form h1 {
+    margin-bottom: 0.3rem;
+}
+#contact .contact-form p {
+    margin-bottom: 0.3rem;
+}
+#contact .contact-form label {
+    margin-bottom: 0.2rem;
+}
+#contact .contact-form .btn {
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+#contact ::placeholder {
+    padding-left: 0.2rem;
+}
+#contact .contact-form .btn:hover {
+    background: #444;
+}
+footer {
+    text-align: center;
+    background: #333;
+    padding: 1rem 2rem;
+    color: #fff;
+}

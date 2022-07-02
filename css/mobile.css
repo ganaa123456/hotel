@@ -1,0 +1,63 @@
+#contact  {
+    max-width: 100%;
+}
+#section .container {
+    margin-left: 4rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#section .container .box-1 {
+    margin-top: 2.3rem;
+}
+#section .container .box-3 {
+    margin-top: 1.2rem;
+}
+#section .container h1 {
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+#section .container .boxes {
+
+    padding: 0;
+    margin-bottom: 1rem;
+    
+}
+#navbar ul {
+         flex-direction: column;
+}
+#navbar .logo {
+    padding: 4rem 0;
+}
+#navbar ul a {
+    margin-right: 4rem;
+}
+#navbar ul a {
+    
+    padding: 1rem;
+    
+}
+#navbar ul a:hover {
+    background: #74b82e;
+    border-radius: 5px;
+}
+@media(max-width: 500px)
+{
+    #section .container .boxes .box-1 , .box-2  ,.box-3{
+        
+        margin-right: 1rem;
+        
+        
+        
+   }
+   #section .container .boxes {
+     margin-right: 2.5rem;
+   } 
+   #section .container h1 {
+      
+    padding-right: 3rem;
+   }
+}
